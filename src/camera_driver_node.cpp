@@ -54,7 +54,7 @@ int main(int argc, char *argv[])
       cv::Mat leftFrame;
       capLeft.read(leftFrame);
 
-      printf("Getting leftFrame: %d %d\n", leftFrame.rows, leftFrame.cols);
+      // printf("Getting leftFrame: %d %d\n", leftFrame.rows, leftFrame.cols);
 
       if (leftFrame.data != nullptr)
       {
@@ -76,7 +76,7 @@ int main(int argc, char *argv[])
       cv::Mat rightFrame;
       capRight.read(rightFrame);
 
-      printf("Getting rightFrame: %d %d\n", rightFrame.rows, rightFrame.cols);
+      // printf("Getting rightFrame: %d %d\n", rightFrame.rows, rightFrame.cols);
 
       if (rightFrame.data != nullptr)
       {
